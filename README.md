@@ -9,9 +9,8 @@ For beginners - [Jump to this section.](#for-beginners)
 
 # Hacktoberfest
 
-Implemented as a part of ***Hacktoberfest 2020 - Open source for Beginners*** workshop conducted on 01/10/2020.
-
-<!-- TODO link the recording after the webinar -->
+Implemented as a part of ***Hacktoberfest 2020 - Open source for Beginners*** session conducted on 01/10/2020.
+You can watch the [recording here.](https://www.youtube.com/watch?v=nXNvyQIFAFQ&feature=youtu.be).
 
 ![Hacktoberfest2020](https://i0.wp.com/wp.laravel-news.com/wp-content/uploads/2020/09/hacktoberfest2020.jpg?fit=2200%2C1100&ssl=1?resize=2200%2C1125)
 
@@ -45,13 +44,14 @@ Go through the FAQs section on the Hacktoberfest website - https://hacktoberfest
 
 # Creating a pull request
 
-1. Create a new git branch
-2. Add files / Modify files
-3. Add and commit your changes
-4. Push your changes to your forked repository
-5. Open this repository and click on **Pull requests** and then the **New Pull Request** button
-6. Click on compare across forks and select **head repository** as your own forked repository and the new branch with changes
-7. Click on **Create pull request**
+1. Fork and Star this repository
+2. Create a new git branch
+3. Add files / Modify files
+4. Add and commit your changes
+5. Push your changes to your forked repository
+6. Open this repository and click on **Pull requests** and then the **New Pull Request** button
+7. Click on compare across forks and select **head repository** as your own forked repository and the new branch with changes
+8. Click on **Create pull request**
 
 And voila! You have created a new pull request! Now all that's left is for the maintainer for the project/repository to review your PR and merge it if it is good to go!
 
