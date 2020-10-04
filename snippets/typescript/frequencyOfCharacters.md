@@ -1,4 +1,4 @@
-# Count amount of characters in a given string, output to .txt file.
+# Count frequency of unique characters in a string
 
 ## Please note, as this is typescript, this would require @types/node included.
 
