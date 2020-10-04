@@ -1,6 +1,6 @@
 # Description
 
-Please include a breif summary of what the issue is all about
+Please include a brief summary of what the issue is all about
 
 ## Language
 
