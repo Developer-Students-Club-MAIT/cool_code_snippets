@@ -1,3 +1,8 @@
+# This is a fun game. Come up with a program that displays the relationship between two persons.
+
+## Code
+
+```python
 def flame(firstName, secondName): 
 	l, sc = 1, 0
 	rc, fc = 0, 5
@@ -58,5 +63,18 @@ firstName = [i for i in firstName]
 secondName = [j for j in secondName] 
 
 flame(firstName, secondName) 
+```
+
+## Input
+Ajay
+Priya
+
+## Output
+Ajay is FRIEND of Priya
 
 
+## Contributed By
+
+| Name        | GitHub Username | Institute |
+| ---         | ---             | ---       |
+| Manav Gupta | silentwraith6   | PEC       |
