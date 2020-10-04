@@ -1,76 +1,78 @@
-# This is a fun game. Come up with a program that displays the relationship between two persons.
+# Flames Game
 
 ## Code
 
 ```python
-def flame(firstName, secondName): 
-	l, sc = 1, 0
-	rc, fc = 0, 5
-	flamesString = "flames"
-	flamesString = [i for i in flamesString] 
-	q = "".join(firstName) 
-	w = "".join(secondName) 
-	
-	# print(q, w) 
-	n = len(firstName) 
-	m = len(secondName) 
-	tc = n + m 
-	for i in range(n): 
-		c = firstName[i] 
-		for j in range(m): 
-			if (c == secondName[j]): 
-				firstName[i] = -1
-				secondName[j] = -1
-				sc = sc + 2
-				break
+def remove_match_char(list1, list2): 
 
-	rc = tc - sc 
-	i = 0
+	for i in range(len(list1)) : 
+		for j in range(len(list2)) : 
+			if list1[i] == list2[j] : 
+				c = list1[i] 
+				list1.remove(c) 
+				list2.remove(c) 
+				list3 = list1 + ["*"] + list2 
+				return [list3, True] 
 
-	while (i): 
-		if (l == (rc)): 
-			for k in range(i,len(flamesString)): 
-				flamesString[k] = flamesString[k + 1] 
-			flamesString[k + 1] = '\0'
-			fc = fc - 1
-			i = i - 1
-			l = 0
-		if (i == fc): 
-			i = -1
-		if (fc == 0): 
-			break
-		l += 1
-		i += 1
-
-	# Print the results 
-	if (flamesString[0] == 'e'): 
-		print(q, "is SOUR ENEMY of", w) 
-	elif (flamesString[0] == 'f'): 
-		print(q, "is FRIEND of", w) 
-	elif (flamesString[0] == 'm'): 
-		print(q, "is going to MARRY", w) 
-	elif (flamesString[0] == 'l'): 
-		print(q, "is in LOVE with", w) 
-	elif (flamesString[0] == 'a'): 
-		print(q, "is more AFFECTIONATE towards", w) 
-	else: 
-		print(q, "and", w, "are SIBLINGS ") 
+	list3 = list1 + ["*"] + list2 
+	return [list3, False] 
 
 # Driver code 
-firstName = input("Enter your name\n")
-secondName = input("Enter your crush's name\n")
-firstName = [i for i in firstName] 
-secondName = [j for j in secondName] 
+if __name__ == "__main__" : 
+	p1 = input("Enter your name : ") 
 
-flame(firstName, secondName) 
-```
+	p1 = p1.lower() 
+
+	p1.replace(" ", "") 
+
+	p1_list = list(p1) 
+
+	p2 = input("Player 2 name : ") 
+	p2 = p2.lower() 
+	p2.replace(" ", "") 
+	p2_list = list(p2) 
+
+	proceed = True
+	
+	while proceed : 
+
+		ret_list = remove_match_char(p1_list, p2_list) 
+		con_list = ret_list[0] 
+		proceed = ret_list[1] 
+		star_index = con_list.index("*") 
+		p1_list = con_list[ : star_index]  
+		p2_list = con_list[star_index + 1 : ] 
+
+
+	count = len(p1_list) + len(p2_list) 
+
+	# list of FLAMES acronym 
+	result = ["Friends", "Love", "Affection", "Marriage", "Enemy", "Siblings"] 
+
+	while len(result) > 1 : 
+
+		split_index = (count % len(result) - 1) 
+
+		if split_index >= 0 : 
+			right = result[split_index + 1 : ] 
+			left = result[ : split_index] 
+			result = right + left 
+
+		else : 
+			result = result[ : len(result) - 1] 
+
+	print("Relationship status :", result[0]) 
+
+
 
 ## Input
 Ajay
 Priya
 
 ## Output
-Ajay is FRIEND of Priya
+Relationship status :Friends
+
+```
 
 
 ## Contributed By
