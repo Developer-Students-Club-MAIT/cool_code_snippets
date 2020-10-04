@@ -1,6 +1,6 @@
 # Count frequency of unique characters in a string
 
-## Please note, as this is typescript, this would require @types/node included.
+## Code
 
 ```typescript
 import { writeFileSync } from 'fs'
@@ -75,4 +75,12 @@ The character f occured 5 times.
 The character j occured 1 time.
 ```
 
-## Contributed by Kahvidev.
+## Description
+
+Please note, as this is TypeScript, @types/node is required.
+
+## Contributed by
+
+| Name        | GitHub Username |
+| ----------- | --------------- |
+| Tom Whiting | KwehDev         |
