@@ -37,4 +37,4 @@ Frequency of c: 1
 
 | Name | GitHub Username | Institute |
 | --- | --- | --- |
-| Yogesh Singh | yogeshsingh101200 | Maharaja Surajmal Intitute of Technology |
+| Yogesh Singh | yogeshsingh101200 | Maharaja Surajmal Institute of Technology |
