@@ -1,4 +1,4 @@
-# Counts frequency of unique characters in a string
+# Count frequency of unique characters in a string
 
 ## Code
 ```python
@@ -19,10 +19,12 @@ with open("frequency.txt", "w") as file:
 ## Description
 Counter(a `dict` subclass) is a collection where elements are stored as dictionary keys and their counts are stored as dictionary values. [See docs](https://docs.python.org/3/library/collections.html#collections.Counter)
 
-## Output
+## Input
 ```
 Enter string: aabbc
 ```
+
+## Output
 ```
 $ cat frequency.txt
 
