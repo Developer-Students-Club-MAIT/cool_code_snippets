@@ -52,5 +52,5 @@ print(tabulate(titles, number_list, len(titles)))
 
 | Name | GitHub Username | Institute |
 | --- | --- | --- |
-| Saksham Arora | sakshamarora1 | Maharaja Agrasen Intitute of Technology |
+| Saksham Arora | sakshamarora1 | Maharaja Agrasen Institute of Technology |
 

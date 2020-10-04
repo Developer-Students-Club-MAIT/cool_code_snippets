@@ -21,5 +21,5 @@ The hex value for RGB values (100, 255, 167) = #64FFA7
 
 | Name | GitHub Username | Institute |
 | --- | --- | --- |
-| Saksham Arora | sakshamarora1 | Maharaja Agrasen Intitute of Technology |
+| Saksham Arora | sakshamarora1 | Maharaja Agrasen Institute of Technology |
 

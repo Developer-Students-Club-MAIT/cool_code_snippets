@@ -29,5 +29,5 @@ Muller, Lewandowski, Kevin, Ramos, Mbappe, Neymar are some of the top football p
 
 | Name | GitHub Username | Institute |
 | --- | --- | --- |
-| Saksham Arora | sakshamarora1 | Maharaja Agrasen Intitute of Technology |
+| Saksham Arora | sakshamarora1 | Maharaja Agrasen Institute of Technology |
 
