@@ -65,14 +65,13 @@ if __name__ == "__main__" :
 ```
 
 
-```
 ## Input
+```
 Ajay
 Priya
 ```
-
-```
 ## Output
+```
 Relationship status :Friends
 ```
 
