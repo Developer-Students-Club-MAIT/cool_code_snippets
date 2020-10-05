@@ -2,6 +2,7 @@
 
 ## Code
 ```python
+# Encrypts a plaintext with shift value
 def encrypt(text, shift):
 
     result = ""
@@ -28,17 +29,37 @@ def encrypt(text, shift):
 
     return result
 
+# Decrypts a ciphertext with key
+def decrypt(text, key):
+
+    # It is important to note here that to the cyclic property
+    # of modulo, we can reuse the cipher() function to decipher
+    # a ciphertext by using shift = 26 - shift
+    return encrypt(text, 26 - key)
+
 if (__name__ == "__main__"):
 
-    plaintext = input("Enter plaintext: ")
-    shift = int(input("Enter shift value: "))
+    text = input("Enter text: ")
+    key = int(input("Enter key value: "))
+    ch = input("\nDo you want to encrypt or decrypt (e/d): ")
 
-    print(f"Plaintext: {plaintext}")
-    print(f"Shift value: {shift}")
+    if (ch.lower() == "e"):
 
-    cipher = encrypt(plaintext, shift)
+        print(f"\nPlaintext: {text}")
+        print(f"Key value: {key}")
 
-    print(f"Cipher text: {cipher}")
+        cipher = encrypt(text, key)
+
+        print(f"\nCiphertext: {cipher}")
+
+    else:
+
+        print(f"\nCiphertext: {text}")
+        print(f"Key value: {key}")
+
+        plain = decrypt(text, key)
+
+        print(f"\nPlaintext: {plain}")
 ```
 
 ## Description
@@ -46,15 +67,34 @@ if (__name__ == "__main__"):
 
 ## Input
 ```
-Enter plaintext: I love H@ckt0berfest!       
-Enter shift value: 3
+Enter text: I love H@ckt0berfest!
+Enter key value: 3
+
+Do you want to encrypt or decrypt (e/d): e
 ```
 
 ## Output
 ```
 Plaintext: I love H@ckt0berfest!
-Shift value: 3
-Cipher text: L oryh K@fnw0ehuihvw!
+Key value: 3
+
+Ciphertext: L oryh K@fnw0ehuihvw!
+```
+
+## Input
+```
+Enter text: ODN XLTE!
+Enter key value: 11
+
+Do you want to encrypt or decrypt (e/d): d
+```
+
+## Output
+```
+Ciphertext: ODN XLTE!
+Key value: 11
+
+Plaintext: DSC MAIT!
 ```
 
 ## Contributed By
