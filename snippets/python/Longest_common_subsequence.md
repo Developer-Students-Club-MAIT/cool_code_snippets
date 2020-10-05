@@ -1,16 +1,8 @@
-# Least Common Subsequence
+# Longest Common Subsequence
 
 ## Code
 
 ```python
-# Input strings
-
-string1 = input("Enter string1: ")
-
-string2 = input("Enter string2: ")
-
-# Function to find lcs
-
 def lcs(string1, string2):
     m=len(string1)
     n=len(string2)
@@ -48,6 +40,11 @@ def lcs(string1, string2):
 
     print("LCS: " + "".join(lcs_algo))
 
+
+string1 = input("Enter string1: ")
+
+string2 = input("Enter string2: ")
+
 lcs(string1,string2)
 ```
 
@@ -64,4 +61,4 @@ LCS: CB
 
 | Name | GitHub Username | Institute |
 | --- | --- | --- |
-| Shivam Porwal | ShivamPorwal02 | Maharaja Surajmal Intitute of Technology |
+| Shivam Porwal | ShivamPorwal02 | Maharaja Surajmal Institute of Technology |
