@@ -55,27 +55,27 @@ I am doing this contribution to github!! Yay!! :)
 $ cat ./output.txt
 Frequency of characters in input string is : 
 
-character ' ' present :8 times
-character '!' present :4 times
-character ')' present :1 times
-character ':' present :1 times
-character 'I' present :1 times
-character 'Y' present :1 times
-character 'a' present :2 times
-character 'b' present :2 times
-character 'c' present :1 times
-character 'd' present :1 times
-character 'g' present :2 times
-character 'h' present :2 times
-character 'i' present :5 times
-character 'm' present :1 times
-character 'n' present :3 times
-character 'o' present :4 times
-character 'r' present :1 times
-character 's' present :1 times
-character 't' present :5 times
-character 'u' present :2 times
-character 'y' present :1 times
+character ' ' occurred :8 times
+character '!' occurred :4 times
+character ')' occurred :1 times
+character ':' occurred :1 times
+character 'I' occurred :1 times
+character 'Y' occurred :1 times
+character 'a' occurred :2 times
+character 'b' occurred :2 times
+character 'c' occurred :1 times
+character 'd' occurred :1 times
+character 'g' occurred :2 times
+character 'h' occurred :2 times
+character 'i' occurred :5 times
+character 'm' occurred :1 times
+character 'n' occurred :3 times
+character 'o' occurred :4 times
+character 'r' occurred :1 times
+character 's' occurred :1 times
+character 't' occurred :5 times
+character 'u' occurred :2 times
+character 'y' occurred :1 times
 ```
 
 ## Contributed By
