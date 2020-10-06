@@ -24,7 +24,7 @@ public class Main {
         StringBuilder res = new StringBuilder("Frequency of characters in input string is : \n\n");
         for (int i = 0, N = chars.length; i < N; i++) {
             if (chars[i] != 0) {    //  if frequency is not 0 then append in result string
-                res.append("character '" + (char)(' ' + i) + "' present :" + chars[i] + " times\n");
+                res.append("character '" + (char)(' ' + i) + "' occurred :" + chars[i] + " times\n");
             }
         }
 
