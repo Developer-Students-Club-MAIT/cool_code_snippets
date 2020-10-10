@@ -29,11 +29,11 @@ return 0;
 }
 ```
 #### Output
-https://drive.google.com/file/d/1BMZbuWzrROUu0wjm0eleGJzrJbUcl7fH/view?usp=sharing
+![](https://drive.google.com/file/d/1BMZbuWzrROUu0wjm0eleGJzrJbUcl7fH/view?usp=sharing)
 #### Contributed By
-| Name | Github Username | College Name|
-| --- | --- | --- |
-| Shreya Garg | einhawking | Maharahja Agrasen Institute of Technology |
+|Name|Github Username|College Name|
+|---|---|---|
+|Shreya Garg|einhawking|Maharaja Agrasen Institute of Technology|
 
 
 
