@@ -29,7 +29,7 @@ return 0;
 }
 ```
 #### Output
-![](https://drive.google.com/file/d/1BMZbuWzrROUu0wjm0eleGJzrJbUcl7fH/view?usp=sharing)
+![Rainbow Image](https://github.com/einhawking/cool_code_snippets/blob/master/snippets/c%2B%2B/Emerging_Rainbow/Rainbow_image.PNG)
 #### Contributed By
 |Name|Github Username|College Name|
 |---|---|---|
