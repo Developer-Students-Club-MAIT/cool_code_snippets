@@ -1,6 +1,6 @@
 # Description
 
-Please include a brief summary of what the issue is all about
+Please include a brief summary of what the issue is all about.
 
 ## Language
 
@@ -14,3 +14,4 @@ Please include a brief summary of what the issue is all about
 - [ ] Feature
 - [ ] Bug
 
+The checklist will be updated by the maintainers / author of this issue according to the language in which snippets are added or are proposed to be added. 
