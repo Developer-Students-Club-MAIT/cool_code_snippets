@@ -25,7 +25,6 @@ Fizz
 Buzz
 ```
 
----
 
 ## Contributed By
 
