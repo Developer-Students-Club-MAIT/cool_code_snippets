@@ -15,6 +15,6 @@ To contribute to this repository and add cool code snippets, the following point
 4. You can add a **Description** sub-heading if you want to provide an explanation! 
 5. Add a **Contributed By** sub-heading at the end of the file and add your name, GitHub username and institute name in a tabular format in the markdown file.
 
-## Do not add pure code files, add your snippets in the cod eblocks in the markdown file.
+## Do not add pure code files, add your snippets in the code blocks in the markdown file.
 
 To connect with the community, join the [DSC MAIT Telegram Group.](https://t.me/joinchat/M3bPT1dhZCH-YQd197Xk5Q)
