@@ -25,10 +25,8 @@ Fizz
 Buzz
 ```
 
-
 ## Contributed By
 
 | Name | GitHub Username | Institute |
 | --- | --- | --- |
 | Uday A S | ItIsUday | RV College of Engineering |
-
