@@ -10,7 +10,6 @@ If we encounter an empty square where no number is valid then the algorithm goes
 This might not seem intuitive at the first go but you could find an amazing visualisation video on the topic [here](https://www.youtube.com/watch?v=_vWRZiDUGHU).
 
 ## C++ Code
-### NOTE: Only the snippets of the core functions required for proper functioning of the algorithm have been added. Also, in our sudoku grid, a '0' digit means an empty space.
 ```cpp
 // declared as global variables for proper functioning
 int row;
@@ -118,7 +117,7 @@ bool solvemain (int sudoku[9][9])
 ```cpp
 int sudoku[9][9] = {{0,6,4,0,3,0,0,0,0}, {0,0,0,1,0,0,0,0,0},{3,0,5,0,8,0,0,0,2},{0,0,0,0,0,8,0,7,0},{7,5,0,6,0,2,4,0,0},{0,0,0,0,0,0,0,1,8},{0,0,0,0,0,0,0,0,0},{0,0,2,7,0,0,0,0,9},{1,0,3,0,0,4,0,6,0}};
     if (solvemain(sudoku))  
-        print_sudoku_grid(sudoku); // any arbitary function which prints the sudoku
+        print_sudoku_grid(sudoku);
     else
        printf( "No solution exists");
 ```
