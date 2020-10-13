@@ -10,7 +10,7 @@ If we encounter an empty square where no number is valid then the algorithm goes
 This might not seem intuitive at the first go but you could find an amazing visualisation video on the topic [here](https://www.youtube.com/watch?v=_vWRZiDUGHU).
 
 ## C++ Code
-### NOTE: I will be only giving snippets of the core functions required for proper functioning of the algorithm. Also, in our sudoku grid, a '0' digit means an empty space.
+### NOTE: Only the snippets of the core functions required for proper functioning of the algorithm have been added. Also, in our sudoku grid, a '0' digit means an empty space.
 ```cpp
 // declared as global variables for proper functioning
 int row;
@@ -118,10 +118,24 @@ bool solvemain (int sudoku[9][9])
 ```cpp
 int sudoku[9][9] = {{0,6,4,0,3,0,0,0,0}, {0,0,0,1,0,0,0,0,0},{3,0,5,0,8,0,0,0,2},{0,0,0,0,0,8,0,7,0},{7,5,0,6,0,2,4,0,0},{0,0,0,0,0,0,0,1,8},{0,0,0,0,0,0,0,0,0},{0,0,2,7,0,0,0,0,9},{1,0,3,0,0,4,0,6,0}};
     if (solvemain(sudoku))  
-        print_sudoku_grrid(sudoku); // any arbitary function which prints the sudoku
+        print_sudoku_grid(sudoku); // any arbitary function which prints the sudoku
     else
        printf( "No solution exists");
 ```
+
+## Output
+```terminal
+9 6 4 2 3 7 8 5 1                                                                                                               
+2 8 7 1 4 5 9 3 6                                                                                                               
+3 1 5 9 8 6 7 4 2                                                                                                               
+6 3 1 4 9 8 2 7 5                                                                                                               
+7 5 8 6 1 2 4 9 3                                                                                                               
+4 2 9 5 7 3 6 1 8                                                                                                               
+8 7 6 3 5 9 1 2 4                                                                                                               
+5 4 2 7 6 1 3 8 9                                                                                                               
+1 9 3 8 2 4 5 6 7 
+```
+
 ## Contributed By
 
 | Name | GitHub Username | Institute |
