@@ -28,7 +28,7 @@ return 0;
 }
 ```
 ## Output
-![Rainbow Image](https://github.com/einhawking/cool_code_snippets/blob/master/snippets/c%2B%2B/Emerging_Rainbow/Rainbow_image.PNG)
+![Rainbow Gif](https://github.com/einhawking/cool_code_snippets/blob/master/snippets/c%2B%2B/Emerging_Rainbow/Rainbow_gif.gif)
 ## Contributed By
 |Name|Github Username|College Name|
 |---|---|---|
