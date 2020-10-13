@@ -1,10 +1,9 @@
 # Emerging Rainbow
+## Description
 This code is about making a rainbow emerge from time=0 seconds.
-#### Langauge
-C++
-#### Type of Issue
-Feature 
-#### Code
+## Langauge
+C++ 
+## Code
 ```C++
 #include<stdio.h>
 #include<graphics.h>
@@ -28,9 +27,9 @@ int main()
 return 0;
 }
 ```
-#### Output
+## Output
 ![Rainbow Image](https://github.com/einhawking/cool_code_snippets/blob/master/snippets/c%2B%2B/Emerging_Rainbow/Rainbow_image.PNG)
-#### Contributed By
+## Contributed By
 |Name|Github Username|College Name|
 |---|---|---|
 |Shreya Garg|einhawking|Maharaja Agrasen Institute of Technology|
