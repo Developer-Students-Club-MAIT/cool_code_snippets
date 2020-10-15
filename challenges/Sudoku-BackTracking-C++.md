@@ -17,10 +17,9 @@ int col;
 
 bool findblank (int sudoku[9][9], int &row, int &col) //returns true if there is an unassigned value in grid
 {
-  // this function takes in a sudoku grid as an arguement 
-  // and returns true if there exist an empty space in our grid.
-  
-  //declare row and col as global variables initially for proper functionality
+  /* this function takes in a sudoku grid as an arguement 
+     and returns true if there exist an empty space in our grid. */
+     
   for (row = 0 ; row < 9; row++)
   {
     for (col = 0 ; col < 9; col++)
@@ -74,10 +73,11 @@ bool solvemain (int sudoku[9][9])
 {
   // main function where backtracking algorithm has been implemented.
 
-  // if there is no empty square then the puzzle is solved hence return true.
-  // however if there is an empty square then the values of the global variables 
-  // row and column would have changed accordingly hence we make use of them
-  // in the following for-loop.
+  /* if there is no empty square then the puzzle is solved hence return true.
+     however if there is an empty square then the values of the global variables 
+     row and column would have changed accordingly hence we make use of them
+     in the following for-loop. */
+     
   if (!findblank(sudoku, row, col)) // FIRST if condition
     return true;
   
@@ -90,20 +90,23 @@ bool solvemain (int sudoku[9][9])
       { 
         sudoku[row][col] = num;
         
-        // heart of the algorithm. 
-        // recursive call to solvemain.
-        // if the sudoku is completed then the last function will return true 
-        // from the FIRST if condition itself.
-        // hence the sudoku will be completed and we can return true.
+	
+         /* heart of the algorithm. 
+            recursive call to solvemain.
+            if the sudoku is completed then the last function will return true 
+            from the FIRST if condition itself.
+            hence the sudoku will be completed and we can return true. */
+	    
         if (solvemain(sudoku))
 			return true;
           
-        // however if for some reason there comes a point when there is no valid
-        // number for a given empty square,at that point this else condition will 
-        // run and the function will finally return false.
-        // This will lead to 'popping' of all stacks in which our sudoku has been
-        // wrongly solved and the puzzle is essentially back to the point on which
-        // the next empty square has no valid numbers.
+         /* however if for some reason there comes a point when there is no valid
+            number for a given empty square,at that point this else condition will 
+            run and the function will finally return false.
+            This will lead to 'popping' of all stacks in which our sudoku has been
+            wrongly solved and the puzzle is essentially back to the point on which
+            the next empty square has no valid numbers. */
+	    
         else
 			sudoku[row][col] = 0;
       }
