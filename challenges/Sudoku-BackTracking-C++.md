@@ -15,7 +15,7 @@ This might not seem intuitive at the first go but you could find an amazing visu
 int row;
 int col;
 
-bool findblank (int sudoku[9][9], int &row, int &col) //returns true if there is an unassigned value in grid
+bool findblank (int sudoku[9][9], int &row, int &col)
 {
   /* this function takes in a sudoku grid as an arguement 
      and returns true if there exist an empty space in our grid. */
@@ -45,7 +45,7 @@ bool checknum (int sudoku[9][9], int row, int col, int num)
       return false;
   }
   
-  // iterates over all columns and reuturns false if the number already exist in the row.
+  // iterates over all columns and returns false if the number already exist in the row.
   for (int i = 0; i < 9; i++)
   {
     if (sudoku[row][i] == num)
@@ -81,8 +81,8 @@ bool solvemain (int sudoku[9][9])
   if (!findblank(sudoku, row, col)) // FIRST if condition
     return true;
   
-  // iterates over all the numbers and uses the modified values of row, col to 
-  // check whether the given number is valid in that position or not.
+  /* iterates over all the numbers and uses the modified values of row, col to 
+   check whether the given number is valid in that position or not. */
   for (int num = 1; num < 10; num++)
   {
       // if the given number is valid then assign the number to that empty square
