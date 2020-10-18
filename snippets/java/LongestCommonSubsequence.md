@@ -4,10 +4,12 @@
 ```Java
 import java.util.*;
 public class LCS3 {
+    //Returns length of LCS for X[0..n-1], Y[0..m-1]
     static String LCS(String X,String Y,int n,int m)
     {
         int t[][]=new int[n+1][m+1];
         int i,j;
+        //t[i][j] contains length of LCS of X[0..i-1] and Y[0..j-1]
         for(i=0;i<=n;i++)
         {
             for(j=0;j<=m;j++)
