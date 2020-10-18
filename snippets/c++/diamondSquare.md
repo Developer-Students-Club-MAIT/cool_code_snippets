@@ -6,7 +6,7 @@
 int main()
 {
     int n;
-    cout << "Enter the number of rows : ";
+    cout << "Enter the value of n : ";
     cin >> n;
 
     int i, j;
@@ -32,9 +32,41 @@ int main()
 
 ## Output
 
-![Diamond image](rows_1?raw=true "Diamond(row=1)")
-![Diamond image](rows_6?raw=true "Diamond(row=6)")
-![Diamond image](rows_10?raw=true "Diamond(row=10)")
+```
+Enter the value of n : 1
+*
+
+Enter the value of n : 3
+  *
+ ***
+*****
+ ***
+  *
+
+Enter the value of n : 10
+         *
+        ***
+       *****
+      *******
+     *********
+    ***********
+   *************
+  ***************
+ *****************
+*******************
+ *****************
+  ***************
+   *************
+    ***********
+     *********
+      *******
+       *****
+        ***
+         *
+         *
+
+```
+
 
 ## Contributed By
 
