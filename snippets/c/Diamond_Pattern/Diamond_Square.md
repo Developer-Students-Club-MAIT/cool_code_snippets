@@ -8,7 +8,7 @@ A Program to print the Diamond Sqaure Pattern. The rows count is given as a inpu
 #include<stdio.h>
 void main(){
     int temp;
-    printf("\nEnter the no of rows: ");
+    printf("\nEnter the rows count: ");
     scanf("%d",&temp);
     int n=2*temp-1;
 
