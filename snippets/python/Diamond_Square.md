@@ -1,12 +1,12 @@
 # Diamond Square
 
 ## Description
-A Program to print the Diamond Sqaure Pattern, number of rows is given as input.
+A Program to print the Diamond Sqaure Pattern. The rows count is given as a input which denotes the longest row in the pattern.
 
 ## Code
 ```python
 # The Diamond Pattern
-n = int(input("Enter number of Rows: "))
+n = int(input("Enter the rows count: "))
 
 # The Top Pyramid
 for i in range(n):
