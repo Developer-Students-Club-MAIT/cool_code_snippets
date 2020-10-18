@@ -28,7 +28,7 @@ Enter the rows count: 7
 
 ## Output
 
-![Code Output](./Output_Images/Diamond_Square.png)
+![Code Output](./Output.png)
 
 ## Contributed By
 
