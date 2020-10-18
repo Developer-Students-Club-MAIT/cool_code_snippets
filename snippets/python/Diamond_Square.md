@@ -6,7 +6,7 @@ A Program to print the Diamond Sqaure Pattern. The rows count is given as a inpu
 ## Code
 ```python
 # The Diamond Pattern
-n = int(input("Enter the rows count: "))
+n = int(input("Enter the rows count:"))
 
 # The Top Pyramid
 for i in range(n):
