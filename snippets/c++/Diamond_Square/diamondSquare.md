@@ -14,8 +14,7 @@ int main()
         for(j = i ; j < n-1 ; j++)
             cout << " ";
         for(j = 0 ; j < i*2+1 ; j++)
-            cout << "*";
-        
+            cout << "*";   
         cout << endl;
     }
     for(i = n-1 ; i > 0 ; i--) {
@@ -25,16 +24,15 @@ int main()
             cout << "*";
         cout << endl;
     }
-    
     return 0;
 }
 ```
 
 ## Output
 
-![Diamond image](rows_1.png?raw=true "Diamond(row=1)")
-![Diamond image](rows_6.png?raw=true "Diamond(row=6)")
-![Diamond image](rows_10.png?raw=true "Diamond(row=10)")
+![Diamond image](rows_1.png?raw=true "Diamond(row=1)")  
+![Diamond image](rows_6.png?raw=true "Diamond(row=6)")  
+![Diamond image](rows_10.png?raw=true "Diamond(row=10)")  
 
 ## Contributed By
 
