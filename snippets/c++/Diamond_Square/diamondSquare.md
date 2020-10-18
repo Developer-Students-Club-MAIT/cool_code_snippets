@@ -30,7 +30,7 @@ int main()
 
 ## Output
 
-![Diamond image](rows_1.png?raw=true "Diamond(row=1)")  
+![Diamond image](row_1.png?raw=true "Diamond(row=1)")  
 ![Diamond image](rows_6.png?raw=true "Diamond(row=6)")  
 ![Diamond image](rows_10.png?raw=true "Diamond(row=10)")  
 
