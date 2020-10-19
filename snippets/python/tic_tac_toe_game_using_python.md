@@ -167,7 +167,7 @@ while (1):
 ## Output
 
 ```
-Enter the name of the first player:arnab
+                Enter the name of the first player:arnab
 
 				Enter the name of the second player:arjit
 
