@@ -9,7 +9,7 @@ public class Diamond_Square
     {
         Scanner sc=new Scanner(System.in);
         //row count input
-        System.out.println("Enter row count :");
+        System.out.print("Enter the row count : ");
         int N=sc.nextInt();
         int i,j,k;
         //printing the upper half of the diamond including the middle part
@@ -35,31 +35,18 @@ public class Diamond_Square
 ```
 
 ## Description
+
 `Scanner` is a java.util package class that is used to take input from console. 
 
 First outer for loop displays half of the diamond pattern, second outer for loop displays the remaining half of the diamond pattern.
 
 
-## Input
-```
-Enter row count :
-4
-```
-
 ## Output
-```
-      * 
-    * * * 
-  * * * * * 
-* * * * * * * 
-  * * * * * 
-    * * * 
-      * 
-```
+
+![Code Output](./output.png)
 
 ## Contributed By
------------------------------------------------------------------------------------------------------------------
-| Name         | GitHub Username                                 | Institute                                    |
-| -----------  | ---------------------------------------------   | ----------------------------------------     |
-| Bhaswati Saha| Bhaswati-Saha                                   | Future Institute of Engineering & Management |
------------------------------------------------------------------------------------------------------------------
+
+| Name         | GitHub Username                                 | Institute                                              |
+| -------------| ------------------------------------------------| -------------------------------------------------------|
+| Bhaswati Saha| Bhaswati-Saha                                   | Future Institute of Engineering and Management,Kolkata |
