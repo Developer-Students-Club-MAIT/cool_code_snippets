@@ -77,9 +77,9 @@ class Trie:
 
 
 # Input keys (use only 'a' through 'z')
-keys = {"apple":"a fruit", "ball":"a round object that you hit, kick, throw, etc. in games and sports", "cat":"an animal",
-        "book":"a written or printed work", "draw":"to do a picture or diagram of something "}
-
+keys = {"hacktoberfest":"a month long virtual festival event to celebrate open source contributions", "git":"a distributed version-control system for tracking changes in source code during software development",
+        "opensource":"denoting software for which the original source code is made freely available and may be redistributed and modified",
+        "issue":"an important topic or problem for debate or discussion","contribution":"a gift or payment to a common fund or collection"}
 
 # Trie object
 t = Trie()
