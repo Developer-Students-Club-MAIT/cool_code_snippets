@@ -80,11 +80,6 @@ string search(TrieNode* root, const string &str, int index = 0)
 	return search(temp->branches[key], str, index+1);
 }
 
-```
-
-## Driver Code
-The following driver code can be used to test the given functions.
-```cpp
 int main() 
 { 
     TrieNode* root = NULL; 
@@ -96,10 +91,17 @@ int main()
     insert(root, "book", "a written or printed work");  
     insert(root, "draw", "to do a picture or diagram of something "); 
   
-  	// search for "book" in our trie
-    string str = "book"; 
-    cout << search(root, str); 
+    string str; 
+    cout<<"Enter Word to search:";
+    cin>>str;
+    cout << search(root, str) 
   
     return 0; 
 }
 ```
+
+## Contributed By
+
+| Name | GitHub Username | Institute |
+| --- | --- | --- |
+| Dwij Mehta | dwij2212 | BITS Pilani |
