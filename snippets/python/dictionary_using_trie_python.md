@@ -1,4 +1,6 @@
-# Description
+# Dictionary using Trie
+
+## Description
 
 ## Trie
 Trie is an efficient data retrieval structure which builds upon the properties of tree structure. Word search complexitites
