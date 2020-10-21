@@ -1,5 +1,11 @@
 # Print a Diamond pattern enclosed in a square
 
+## Description
+
+`Scanner` is a java.util package class that is used to take input from console. 
+
+First outer for loop displays half of the diamond pattern, second outer for loop displays the remaining half of the diamond pattern.
+
 ## Code
 ```Java
 import java.util.*;
@@ -33,13 +39,6 @@ public class Diamond_Square
     }
 }
 ```
-
-## Description
-
-`Scanner` is a java.util package class that is used to take input from console. 
-
-First outer for loop displays half of the diamond pattern, second outer for loop displays the remaining half of the diamond pattern.
-
 
 ## Output
 
