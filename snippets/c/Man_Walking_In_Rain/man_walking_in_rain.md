@@ -102,6 +102,7 @@ getch ();
 }
 ```
 ## Output
+![Man_Walking_in_rain](https://github.com/Manikant25/cool_code_snippets/blob/master/snippets/c/Man_Walking_In_Rain/20201021_151821.gif)
 
 
 
