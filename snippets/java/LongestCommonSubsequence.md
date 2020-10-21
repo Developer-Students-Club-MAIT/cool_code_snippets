@@ -1,5 +1,13 @@
 # Longest Common Subsequence
 
+## Description
+
+`Scanner` is a java.util package class that is used to take input from console.
+
+In the first part,length of the longest common subsequence for X[0..n-1] and Y[0..m-1] is stored in a table t[n+1][m+1] where t[i][j] stores the length of the longest common subsequence of X[0..i-1] and Y[0..j-1].In the first outer for loop, if either of the two strings X or Y is null then t[i][j]=0.In the second outer for loop, if the last character of both the strings matches then t[i][j]=1+t[i-1][j-1] else take the maximum of t[i][j-1] and t[i-1][j] and store it to t[i][j].
+
+In the second part,longest common subsequence is formed and stored in a string s.
+
 ## Code
 ```Java
 //Dynamic Programming implementation of Longest Common Subsequence problem in Java
@@ -68,10 +76,6 @@ public class Longest_Common_Subsequence
     }
 }
 ```
-
-## Description
-`Scanner` is a java.util package class that is used to take input from console. 
-
 
 ## Input
 ```
