@@ -39,10 +39,10 @@ int main()
 
 
 # Input
-'''7'''
+```7```
 
 # Output
-'''13'''
+```13```
 
 ## Contributed By
 |Name|Github Username|College Name|
