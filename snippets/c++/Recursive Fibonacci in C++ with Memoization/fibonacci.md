@@ -1,8 +1,7 @@
 # Recursive Fibonacci in C++ with Memoization
 
-# code
-```
-//Fibonacci using Recrusion with meoization
+# Code
+```C++
 #include<bits/stdc++.h>
 using namespace std;
 int F[10]; //Globally declared  or Static Array to store the value of called function
@@ -35,7 +34,9 @@ int main()
 
  printf("%d \n",mfib(5));
  return 0;
-}'''
+}
+```
+
 
 # Input
 '''7'''
