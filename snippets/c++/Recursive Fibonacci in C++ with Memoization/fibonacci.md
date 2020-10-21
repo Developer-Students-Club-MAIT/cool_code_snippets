@@ -29,7 +29,7 @@ int mfib(int n)
 int main()
 {
  int i;
- for(i=0;i<10;i++)
+ for(i=0;i<10;i++) //Initialising array F with -1
  F[i]=-1;
 
  printf("%d \n",mfib(5));
@@ -39,10 +39,10 @@ int main()
 
 
 # Input
-'''7'''
+```7```
 
 # Output
-'''13'''
+```13```
 
 ## Contributed By
 |Name|Github Username|College Name|
