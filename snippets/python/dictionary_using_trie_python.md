@@ -1,4 +1,4 @@
-# Dictionary using Trie
+# Description
 
 ## Trie
 Trie is an efficient data retrieval structure which builds upon the properties of tree structure. Word search complexitites
@@ -8,8 +8,7 @@ can be brought to an optimal limit which depends on key length.
 Main application of the trie is storing words in the structure. This trie can be traversed by first approaching the root node then traversing along the path on which our 
 letter and the letter within the node's branch matches. You can learn more about inserting and searching, and tries in general [here](https://www.geeksforgeeks.org/trie-insert-and-search/)
 
-## Python Code
-TrieNode definition, Recursive functions for searching, inserting and a few helper functions are given in the following code snippet.
+## Code
 ```python
 
 class TrieNode:
