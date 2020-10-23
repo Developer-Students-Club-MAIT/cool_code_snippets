@@ -2,7 +2,6 @@
 
 ## Description
 In an ordinary recursive function of the Fibonacci same function with the same parameter is called many times, so there are excessive recursive calls, but with memorization, we take an array of suitable size and initialize it with -1 and store the result of the unique recursive call in an array instead of -1. So when we need to call a function again, we don't call we directly take its result from the array we have already stored and if does not exist then the function is called recursively.
-There are no dependencies required as such, input is stored given in code.
 
 ## Code
 ```C++
@@ -34,7 +33,6 @@ int main() {
   return 0;
 }
 ```
-
 
 ## Input
 ```7```
