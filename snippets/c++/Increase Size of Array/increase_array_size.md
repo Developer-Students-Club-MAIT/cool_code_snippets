@@ -48,4 +48,3 @@ int main() {
 |Name|Github Username|College Name|
 |---|---|---|
 |Manikant Rai|Manikant25|SRM Institute of Science And Technology|
-
