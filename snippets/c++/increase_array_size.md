@@ -34,6 +34,7 @@ int main() {
   return 0;
 }
 ```
+
 ## Input
 ```
 1 2 3 4 5
@@ -43,6 +44,7 @@ int main() {
 ```
 1 2 3 4 5 6 7 8 9 10 
 ```
+
 ## Contributed By
 |Name|Github Username|College Name|
 |---|---|---|
