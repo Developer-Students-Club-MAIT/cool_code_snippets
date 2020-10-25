@@ -33,12 +33,10 @@ int main() {
   return 0;
 }
 ```
-
 ## Input
 ```
 7
 ```
-
 ## Output
 ```
 13
