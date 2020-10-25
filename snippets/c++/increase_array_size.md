@@ -7,11 +7,11 @@ Copying the element of A to B and delete the memory pointed by p . Make p pointe
 ## Code
 ```C++
 #include<bits/stdc++.h>
-
 using namespace std;
 
 int main() {
   int * p = new int[5]; //Created array of 5 in heap
+  cout<<"Enter the elements\n";
   for (int i = 0; i < 5; i++)
     cin >> p[i];
   //to increase size
@@ -24,10 +24,11 @@ int main() {
   delete p;
   p = q;
   q = nullptr;
-
+cout<<"Enter more elements to be added\n";
   for (int i = 5; i < 10; i++)
     cin >> p[i];
 
+cout<<"Total elements are:\n";
   for (int i = 0; i < 10; i++)
     cout << p[i] << " ";
   return 0;
@@ -36,12 +37,15 @@ int main() {
 
 ## Input
 ```
-1 2 3 4 5
-6 7 8 9 10
+Enter the elements                                                                                                    
+1 2 3 4 5                                                                                                             
+Enter more elements to be added                                                                                       
+6 7 8 9 10 
 ```
 ## Output
 ```
-1 2 3 4 5 6 7 8 9 10 
+Total elements are:                                                                                                   
+1 2 3 4 5 6 7 8 9 10
 ```
 
 ## Contributed By
