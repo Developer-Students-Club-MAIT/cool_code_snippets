@@ -11,8 +11,7 @@ Copying the element of A to B and delete the memory pointed by p . Make p pointe
 using namespace std;
 
 int main() {
-  int * p = new int[5]; //Created array of 5 in heeap
-
+  int * p = new int[5]; //Created array of 5 in heap
   for (int i = 0; i < 5; i++)
     cin >> p[i];
   //to increase size
