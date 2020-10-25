@@ -29,20 +29,20 @@ int main() {
   int i,x;
   for (i = 0; i < 100; i++)
     F[i] = -1;
-  cout << "Enter the number of terms of series : ";  
+   cout << "Enter the index(max:100) : ";   
   cin>>x;
-  cout <<mfib(x);
+  cout << "The " << x << "th term in the fibonacci sequence is : " << mfib(x);
   return 0;
 }
 ```
 
 ## Input
 ```
-Enter the number of terms of series : 7
+Enter the index(max:100) : 7
 ```
 ## Output
 ```
-13
+The 7th term in the fibonacci sequence is : 13
 ```
 
 ## Contributed By
