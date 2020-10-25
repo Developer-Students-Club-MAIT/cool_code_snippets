@@ -19,7 +19,7 @@ int main() {
   int * q = new int[10]; //create a big array
 
   //copy elements of p to q
-
+  
   for (int i = 0; i < 5; i++)
     q[i] = p[i];
 
