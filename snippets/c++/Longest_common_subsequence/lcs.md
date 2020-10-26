@@ -3,6 +3,11 @@
 ## Code
 
 ```C++
+#include <iostream>
+#include <cstring>
+
+using namespace std;
+
 int findmax( int a, int b)
 {
 	return a > b ? a : b;
