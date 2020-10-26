@@ -3,6 +3,11 @@
 ## Code
 
 ```C++
+int findmax( int a, int b)
+{
+	return a > b ? a : b;
+}
+
 void lcs( char *str1, char *str2, int m, int n ) 
 { 
 	int L[m+1][n+1]; 
@@ -16,7 +21,7 @@ void lcs( char *str1, char *str2, int m, int n )
             		else if (str1[i-1] == str2[j-1]) 
                 		L[i][j] = L[i-1][j-1] + 1; 
             		else
-                		L[i][j] = max(L[i-1][j], L[i][j-1]); 
+                		L[i][j] = findmax(L[i-1][j], L[i][j-1]); 
 		} 
 	} 
 
