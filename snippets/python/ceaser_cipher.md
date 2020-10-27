@@ -1,4 +1,4 @@
-# Ceaser Cipher - Python3
+# Ceaser Cipher
 
 ## Description
 This script uses the [Ceaser Cipher](https://en.wikipedia.org/wiki/Caesar_cipher) for encrypting messages in plain text.
@@ -9,13 +9,6 @@ This script uses the [Ceaser Cipher](https://en.wikipedia.org/wiki/Caesar_cipher
     -d: decodes encrypted text
     -k, --key
 
-## Example:
-
-    python ceaser_cipher.py -e "Hi, How are you?" -k -17
-    encrypted: Qr, Qxf jan hxd?
-    
-    python ceaser_cipher.py -d "Qr, Qxf jan hxd?" -k -17
-    decoded message: Hi, How are you?
 
 ## Code:
 ```python
@@ -26,7 +19,7 @@ import sys
 
 def encrypt(msg=None,s_pattern=None):
     """
-    encrypts a message in plain text using the 'ceaser cipher', using a shift pattern
+    encrypts a message in plain text using the 'ceaser cipher'
     :param msg: plain text string
     :param s_patter: shift pattern
     """
@@ -56,7 +49,7 @@ def encrypt(msg=None,s_pattern=None):
 
 def decode(msg=None, s_pattern=None):
     """
-    decodes a message in plain text using the 'ceaser cipher', using a shift pattern
+    decodes a message in plain text using the 'ceaser cipher'
     :param msg: plain text string
     :param s_patter: shift pattern
     """
@@ -114,6 +107,16 @@ if __name__ == "__main__":
         print(f"error: you must specify one option\n\n:{options}")
         sys.exit(1)
 ```
+
+
+## Example:
+
+    $ python ceaser_cipher.py -e "Hi, How are you?" -k -17
+    encrypted: Qr, Qxf jan hxd?
+    
+    $ python ceaser_cipher.py -d "Qr, Qxf jan hxd?" -k -17
+    decoded message: Hi, How are you?
+
 
 ## Contributed By
 
