@@ -4,16 +4,14 @@
 This script uses the [Ceaser Cipher](https://en.wikipedia.org/wiki/Caesar_cipher) for encrypting messages in plain text.
 
 
-### Options: 
+## Options: 
     -e: encrypts plain text
     -d: decodes encrypted text
-    -k, --key
+    -k, --key: key 
 
 
 ## Code:
 ```python
-#!/usr/bin/python3
-# -*- coding: utf-8 -*-
 import sys
 
 
@@ -83,7 +81,7 @@ if __name__ == "__main__":
 
     -e: encrypts plain text
     -d: decodes encrypted text
-    -k, --key
+    -k, --key: key 
     '''
     if "-e" in sys.argv and "-d" in sys.argv:
         print(f"error: only one option can be specified at a time\n\n{options}")
@@ -109,7 +107,7 @@ if __name__ == "__main__":
 ```
 
 
-## Example:
+## Demo:
 
     $ python ceaser_cipher.py -e "Hi, How are you?" -k -17
     encrypted: Qr, Qxf jan hxd?
