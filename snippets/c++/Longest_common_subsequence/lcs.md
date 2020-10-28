@@ -69,8 +69,11 @@ int main()
 ```
 
 ## Output
- 
-![LCS image](LCS_example.png?raw=true "LCS_example")   
+```
+String 1: YUOSJTYPE
+String 2: OSYEWEASW
+LCS: OSYE
+```
 
 ## Contributed By
 
