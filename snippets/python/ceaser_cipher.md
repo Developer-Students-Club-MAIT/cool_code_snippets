@@ -107,7 +107,7 @@ if __name__ == "__main__":
 ```
 
 
-## Demo:
+## Output:
 
     $ python ceaser_cipher.py -e "Hi, How are you?" -k -17
     encrypted: Qr, Qxf jan hxd?
