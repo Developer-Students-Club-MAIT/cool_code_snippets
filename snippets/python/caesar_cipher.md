@@ -1,7 +1,7 @@
-# Ceaser Cipher
+# Caesar Cipher
 
 ## Description
-This script uses the [Ceaser Cipher](https://en.wikipedia.org/wiki/Caesar_cipher) for encrypting messages in plain text.
+This script uses the [Caesar Cipher](https://en.wikipedia.org/wiki/Caesar_cipher) for encrypting messages in plain text.
 
 
 ## Options: 
@@ -17,7 +17,7 @@ import sys
 
 def encrypt(msg=None,s_pattern=None):
     """
-    encrypts a message in plain text using the 'ceaser cipher'
+    encrypts a message in plain text using the 'Caesar cipher'
     :param msg: plain text string
     :param s_patter: shift pattern
     """
@@ -47,7 +47,7 @@ def encrypt(msg=None,s_pattern=None):
 
 def decode(msg=None, s_pattern=None):
     """
-    decodes a message in plain text using the 'ceaser cipher'
+    decodes a message in plain text using the 'Caesar cipher'
     :param msg: plain text string
     :param s_patter: shift pattern
     """
@@ -109,10 +109,10 @@ if __name__ == "__main__":
 
 ## Output:
 
-    $ python ceaser_cipher.py -e "Hi, How are you?" -k -17
+    $ python caesar_cipher.py -e "Hi, How are you?" -k -17
     encrypted: Qr, Qxf jan hxd?
     
-    $ python ceaser_cipher.py -d "Qr, Qxf jan hxd?" -k -17
+    $ python caesar_cipher.py -d "Qr, Qxf jan hxd?" -k -17
     decoded message: Hi, How are you?
 
 
